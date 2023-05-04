@@ -84,7 +84,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                   return FancyShimmerImage(
                       width: double.infinity,
                       boxFit: BoxFit.fill,
-                      imageUrl: "http://i.ibb.co/vwB46Yq/shoes.png");
+                      imageUrl: "http://placeimg.com/640/480/any");
                 },
                 autoplay: true,
                 itemCount: 3,

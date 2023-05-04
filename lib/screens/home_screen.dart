@@ -104,6 +104,9 @@ class _HomescreenState extends State<Homescreen> {
                   ),
                 ),
               ),
+               const SizedBox(
+                height: 10,
+              ),
               Expanded(
                 child: SingleChildScrollView(
                   child: Column(
@@ -159,7 +162,7 @@ class _HomescreenState extends State<Homescreen> {
                                   crossAxisCount: 2,
                                   crossAxisSpacing: 0.0,
                                   mainAxisSpacing: 0.0,
-                                  childAspectRatio: 0.6),
+                                  childAspectRatio: 0.8),
                           itemBuilder: (ctx, index) {
                             return const FeedsWidget();
                           })
